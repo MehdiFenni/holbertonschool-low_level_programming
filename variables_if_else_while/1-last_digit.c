@@ -20,4 +20,5 @@ int main(void)
 
 	if (lastDigit > 5)
 	{
-		printf("a
+		printf("and is greater than 5\n")
+
