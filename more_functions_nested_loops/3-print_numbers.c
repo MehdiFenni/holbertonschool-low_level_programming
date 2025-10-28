@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* print_numbers - Affiche les chiffres de 0 à 9 suivis d'un retour à la ligne.
+* print_numbers - Affiche les chiffres de 0 à 9 suivi d'un retour à la ligne.
 *
 * Description: Utilise _putchar pour écrire chaque caractère.
 * Return: void
-x*/
+*/
 void print_numbers(void)
 {
 	char d = '0';
