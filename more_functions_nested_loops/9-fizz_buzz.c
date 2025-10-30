@@ -14,42 +14,11 @@ int main(void)
 }
 
 /**
- * fizz_buzz - Affiche 1..100 en remplaçant:
+ * fizz_buzz - Affiche 1..100 en remplaçant :
  *             multiples de 3 par "Fizz",
  *             multiples de 5 par "Buzz",
  *             multiples de 3 et 5 par "FizzBuzz".
  */
-void fizz_buzz(void)
-{
-	int i;
-
-	for (i = 1; i <= 100; i++)
-	{
-		if (i % 15 == 0)
-		{
-			printf("FizzBuzz");
-		}
-		else if (i % 3 == 0)
-		{
-			printf("Fizz");
-		}
-		else if (i % 5 == 0)
-		{
-			printf("Buzz");
-		}
-		else
-		{
-			printf("%d", i);
-		}
-
-		if (i < 100)
-		{
-			printf(" ");
-		}
-	}
-	printf("\n");
-}
-
 void fizz_buzz(void)
 {
 	int i;
