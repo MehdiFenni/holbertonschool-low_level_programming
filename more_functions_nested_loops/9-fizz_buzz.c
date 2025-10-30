@@ -1,20 +1,5 @@
 #include <stdio.h>
 
-/**
- * fizz_buzz - affiche les nombres de 1 à 100,
- *             remplaçant multiples de 3 par "Fizz",
- *             multiples de 5 par "Buzz" et les deux par "FizzBuzz".
- */
-void fizz_buzz(void);
-
-int main(void)
-{
-	fizz_buzz();
-	return (0);
-}
-
-#include <stdio.h>
-
 void fizz_buzz(void);
 
 /**
