@@ -1,19 +1,26 @@
-include "main.h"
+
+#include "main.h"
 
 void fizz_buzz(void);
 
-for (int i =1; i <= 100; 1++) {
-	if (i % 15 == 0) {
+{
+	int i;
+
+	for (int i =1; i <= 100; 1++)
+	{
+	if (i % 15 == 0)
 	    printf ("FizzBuzz");
-	} else if (i % 3 == 0) {
+	 else if (i % 3 == 0)
 	    printf ("Fizz");
-	} else if (i % 5 == 0) {
+	 else if (i % 5 == 0)
 	    printf ("Buzz");
-	} else {
+	 else
 	    printf("%d", i);
 
-	}
+	if (i < 100)
 	    printf(" ");
 	}
+	
 	printf("\n");
+	return (0);
 }
