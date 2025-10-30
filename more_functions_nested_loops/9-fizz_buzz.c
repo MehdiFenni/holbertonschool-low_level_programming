@@ -3,7 +3,7 @@
 
 void fizz_buzz(void);
 
-
+{
 	int i;
 
 	for (int i = 1; i <= 100; i++)
@@ -22,5 +22,5 @@ void fizz_buzz(void);
 	}
 
 	printf("\n");
-	return (0);
+
 }
