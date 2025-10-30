@@ -1,21 +1,23 @@
 #include <stdio.h>
 
 void fizz_buzz(void) {
+{
      int i;
     for (int i = 1; i <= 100; i++) {
-        if (i % 5 &&  i % 3) {
+    {
+	if (i % 5 &&  i % 3) {
             printf("FizzBuzz");
-        } else if (i % 3 == 0) {
+         else if (i % 3 == 0) {
             printf("Fizz");
-        } else if (i % 5 == 0) {
+         else if (i % 5 == 0) {
             printf("Buzz");
-        } else {
+         else {
             printf("%d", i);
-        }
+
 
         if (i < 100) {
             printf(" ");
-        }
+
     }
     printf("\n");
 }
