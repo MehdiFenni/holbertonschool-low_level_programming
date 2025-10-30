@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * print_triangle - Affiche un triangle avec le caractère '#'.
+ * @size: Taille du triangle (nombre de lignes).
+ *
+ * Description: Imprime une nouvelle ligne seule si @size <= 0.
+ * Return: Rien.
+ */
 void print_triangle(int size)
 {
 	int row, sp, hash;
