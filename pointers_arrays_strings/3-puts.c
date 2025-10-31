@@ -1,6 +1,11 @@
 #include "main.h"
 
-
+/**
+ * _puts - écrit une chaîne sur stdout, suivie d'un saut de ligne.
+ * @str: pointeur vers la chaîne C (terminée par '\0')
+ *
+ * Return: Rien.
+ */
 void _puts(char *str)
 {
 	int i = 0;
