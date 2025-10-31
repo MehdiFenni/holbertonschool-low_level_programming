@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * puts_half - imprime la seconde moitié d'une chaîne, suivie d'un '\n'.
