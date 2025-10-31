@@ -1,6 +1,11 @@
 #include "main.h"
 
-
+/**
+ * rev_string - inverse une chaîne de caractères en place.
+ * @s: pointeur vers la chaîne C (terminée par '\0')
+ *
+ * Return: Rien.
+ */
 void rev_string(char *s)
 {
 	int i = 0;
