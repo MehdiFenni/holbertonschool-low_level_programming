@@ -1,0 +1,24 @@
+#include "main.h"
+
+
+void rev_string(char *s)
+{
+	int i = 0;
+	int j = 0;
+	char tmp;
+
+	while (s[j] != '\0')
+		j++;
+
+	j = j - 1;
+
+
+	while (i < j)
+	{
+		tmp = s[i];
+		s[i] = s[j];
+		S[j] = tmp;
+		i++;
+		j--;
+	}
+}
