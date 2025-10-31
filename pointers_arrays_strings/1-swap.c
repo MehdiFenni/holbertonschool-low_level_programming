@@ -1,13 +1,17 @@
 #include "main.h"
 
+/**
+ * swap_int - échange les valeurs de deux entiers via leurs pointeurs.
+ * @a: pointeur vers le premier entier
+ * @b: pointeur vers le second entier
+ *
+ * Return: Rien.
+ */
 void swap_int(int *a, int *b)
-
 {
-	int x = 10, y = 42;
+	int tmp;
 
-
-	swap_int(&x, &y);
-	printf("x=%d, y=%d\n" , x , y);
-	return 0;
-
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
 }
