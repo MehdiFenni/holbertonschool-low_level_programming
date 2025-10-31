@@ -1,6 +1,11 @@
 #include "main.h"
 
-
+/**
+ * print_rev - affiche une chaîne en ordre inverse, puis un '\n'.
+ * @s: pointeur vers la chaîne C (terminée par '\0')
+ *
+ * Return: Rien.
+ */
 void print_rev(char *s)
 {
 	int len = 0;
