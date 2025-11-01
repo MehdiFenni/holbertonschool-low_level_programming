@@ -12,7 +12,6 @@
  *
  * Return: pointer to the resulting string dest
  */
->>>>>>> 4c4cc7c67fb14bcc99333820c9a4b9f6eb8e7e90
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
